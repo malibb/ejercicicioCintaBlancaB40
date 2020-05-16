@@ -1,0 +1,78 @@
+body {
+    font-family: Lato
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Catamaran;
+    font-weight: 800!important
+}
+
+.nav-bar-custom {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rounded-pill {
+    border-radius: 5rem
+}
+
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: linear-gradient(0deg, #087be7 0, #877e99 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover
+}
+
+header.masthead .masthead-content {
+    z-index: 1;
+    position: relative
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem
+}
+
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem
+}
+
+.btn-primary {
+    background-color: #087be7;
+    border-color: #877e99
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #877e99!important;
+    border-color: #877e99!important
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(48, 46, 53, 0.1)
+}
+
+.btn-secondary {
+    background-color: #ff6a00;
+    border-color: #ff6a00
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: #c50!important;
+    border-color: #c50!important
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5)
+}
